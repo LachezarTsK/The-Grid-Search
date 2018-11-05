@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Solution {
+public class Solution_1DArray {
 	public static String getResults(String[] grid, String[] pattern) {
 		String results = "NO";
 		int boundarySkippingThroughRows = grid.length - pattern.length;
